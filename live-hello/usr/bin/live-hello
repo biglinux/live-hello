@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=bigcontrolcenter
+
+
+TITLE=$"Boas Vindas"
+
+
+cd /usr/share/bigbashview/bcc/apps/live-hello/
+
+LANGUAGE=$BIGBASHVIEW_LANG bigbashview -t qt -n "$TITLE" -s 1150x680 -i icon.png index.sh.htm
