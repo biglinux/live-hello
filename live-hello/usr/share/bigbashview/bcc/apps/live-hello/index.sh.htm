@@ -1,0 +1,301 @@
+#!/bin/bash
+
+cat << EOF
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+      -->
+
+    <!-- SEO -->
+    <title>Apresentação do BigLinux</title>
+
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="./static/css/webslides2.css">
+
+
+    <style>
+    #navigation {
+    -webkit-animation: fadeIn 8s;
+    animation: fadeIn 8s;
+    bottom: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    color: white !important;
+    position: fixed;
+    right: 0;
+    width: 24.4rem;
+    z-index: 4;
+    font-size: 26px;
+}
+
+a#next, a#previous {
+    border-radius: .4rem;
+    cursor: pointer;
+    font-size: 100px;
+    height: 0rem;
+    padding: 0px;
+    margin-bottom: 0px;
+    position: inherit;
+    text-align: center;
+    width: inherit;
+    bottom: 109px;
+    
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.wrap.bigmovetotop {
+    margin-top: -270px;
+    font-size: 25px;
+    line-height: normal;
+}
+
+.wrap.size-60.bigtextsize {
+    font-size: 23px;
+    line-height: normal;
+}
+
+
+.bigclock {
+    margin-top: 258px;
+    line-height: normal;
+    font-size: 1.2em;
+    background-color: #ffffff7a;
+    border-radius: 17px;
+    padding: 15px;
+
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.flexblock {
+    clear: both;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+    </style>
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+  </head>
+  <body>
+    <main role="main">
+      <article id="webslides">
+
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section class="bg-purple aligncenter">
+         <span class="background dark" style="background-image:url('https://source.unsplash.com/C1HhAQrbykQ/')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <h1 class="text-landing">Obrigado por escolher o BigLinux!</h1>
+            <p class="text-symbols">* * * * *</p>
+            <p>Prossiga para os próximos slides e conheça um pouco melhor o sistema.
+            <br>
+            E compreenda o nosos lema em busca do sistema perfeito!
+            </p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+
+
+        <section class="aligncenter">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background" style="background-image:url('https://source.unsplash.com/wn7Vdl8_yXc/1600x800')"></span>
+          <div class="wrap bigmovetotop">
+            <h2 class="text-landing">Simplicidade de uso e muitos recursos</h2><br>
+Um sistema completo e simples, abra o menu do sistema e perceba que serão exibidas apenas as opções mais utilizadas, porém em nossa central de controle você acessa uma grande quantidade de recursos, mas para ter maior agilidade, abra o menu e comece a digitar o que deseja e a busca irá localizar também os itens presentes na central de controle.
+          </div>
+        </section>
+
+        <section class="bg-gradient-v">
+          <span class="background dark" style="background-image:url('https://source.unsplash.com/nxfuA21kNHY/1440x1440')"></span>
+          <div class="wrap size-60 bigtextsize">
+            <p class="text-context"><h2>Otimizações por toda parte</h2></p>
+                        O sistema possui otimizações que possibilitam alguns computadores já considerados obsoletos permanecerem utilizáveis, enquanto faz computadores modernos terem desempenho incrível.
+<br><br>
+Dessa forma o BigLinux colabora com a inclusão social e ao mesmo tempo com a natureza, possibilitando mais pessoas terem acesso à tecnologia e também reduzindo o descarte de lixo eletrônico no meio ambiente.
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="aligncenter">
+          <span class="background" style="background-image:url('https://source.unsplash.com/mGYxAWITqMg/')"></span>
+          <div class="wrap bigmovetotop">
+            <h1 class="text-landing text-shadow">Uma nova etapa se inicia</h1>
+        Desde 2004 em busca do sistema perfeito e aprendendo cada vez mais, em 2021 estamos dando um grande passo na modernização do sistema, utilizando como base a distribuição Manjaro e incluindo uma série de recursos, otimizações e facilidades.
+<br><br>
+Contamos com recursos que talvez os nomes não lhe sejam familiares, mas tornarão mais agradável e eficiente o uso do seu computador.
+            
+          </div>
+          <!-- .end .wrap -->
+          </footer>
+        </section>
+        <section class="slide-top">
+          <span class="background" style="background-image:url('https://source.unsplash.com/5gn2soeAc40/')"></span>
+          <div class="wrap">
+            <p class="text-context"><strong>Sistema de áudio PipeWire</strong></p>
+            <h2>Mais qualidade, menos latência e menor consumo de recursos.</h2>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+          <div class="wrap size-40 zoomIn aligncenter">
+            <figure>
+              <img src="../static/images/android.png" alt="Pixel Phone">
+            </figure>
+            <p>Veja em nossa Central de Controle as opções de interação com o seu smartphone ou tablet.</p>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="aligncenter">
+          <span class="background" style="background-image:url('https://source.unsplash.com/rCOWMC8qf8A/')"></span>
+          <div class="wrap bigclock">
+            <h2>Aproveite o seu tempo</h2>
+            Utilize os Web Apps para acessar os serviços Web que vc preferir, com nosso configurador de Web Apps é fácil desativar os que estão presentes na instalação do sistema e também criar seus próprios Web Apps.
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-apple">
+          <span class="background" style="background-image:url('/usr/share/wallpapers/forest.jpg')"></span>
+          <div class="wrap">
+            <ul class="flexblock plans ">
+              <li>
+                  <h2>BTRFS + ZSTD</h2>
+                  <div>
+                    <p>O sistema com mais desempenho e instalado utilizando menos da metade do espaço necessário em sistemas de arquivos sem compactação.</p>
+                  </div>
+              </li>
+              <li>
+                  <h2>Conversor de .deb e .rpm</h2>
+                  <div>
+                    <p>Se você não encontrar o programa que deseja em nossa loja de aplicativos ou no Pamac, poderá tentar a instalação utilizando arquivos .deb ou .rpm, basta dar 2 cliques que um conversor automatico irá prosseguir com a instalação. </p>
+                  </div>
+              </li>
+              <li>
+                  <h2>Snapshots</h2>
+                  <div>
+                    <p>Com o particionamento BTRFS automaticamente é gerado um ponto de restauração por dia, que ficam guardados por cinco dias, tornando muito simples restaurar o sistema caso seja necessário.</p>
+                  </div>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-apple">
+          <span class="background" style="background-image:url('/usr/share/wallpapers/drop.jpg')"></span>
+          <div class="wrap">
+            <ul class="flexblock plans ">
+              <li>
+                  <h2>Mais compatível</h2>
+                  <div>
+                    <p>Adicionamos recursos que tornam o sistema mais compatível com programas vindos do AUR, inclusive drivers em formato DKMS.</p>
+                  </div>
+              </li>
+              <li>
+                  <h2>Disable Fsync</h2>
+                  <div>
+                    <p>Junto com o sistema de arquivos BTRFS recomendamos o uso do disable-fsync, que reduz a gravação de dados no sistema de armazenamento, tornando o sistema consideravelmente mais rápido.</p>
+                  </div>
+              </li>
+              <li>
+                  <h2>Executáveis e Java</h2>
+                  <div>
+                    <p>Arquivos em .jar e executáveis para Linux, por exemplo, .run e .sh, para executa-los basta dar 2 cliques.</p>
+                  </div>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        </section>
+        <section class="bg-apple">
+          <span class="background" style="background-image:url('/usr/share/wallpapers/short-eared-owl.jpg')"></span>
+          <div class="wrap">
+            <ul class="flexblock plans ">
+              <li>
+                  <h2>Central de Controle</h2>
+                  <div>
+                    <p>Em nossa central de controle existem mais de 50 configuradores para que você faça as configurações que precisar de forma simples e rápida.</p>
+                  </div>
+              </li>
+              <li>
+                  <h2>nosync-browser</h2>
+                  <div>
+                    <p>Similar ao disable-fsync, porém com mais otimizações para os navegadores WEB, possibilitando principalmente abrir uma quantidade maior de abas ao mesmo tempo sem deixar o computador lento.</p>
+                  </div>
+              </li>
+              <li>
+                  <h2>Opções de Desktop</h2>
+                  <div>
+                    <p>Ao logar no sistema você pode optar por diferentes configurações do KDE, como se fossem ambientes de desktop diferentes.</p>
+                  </div>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-gradient-v">
+          <span class="background dark" style="background-image:url('/usr/share/wallpapers/plouzane-1758197_1920.jpg')"></span>
+          <div class="wrap size-60 bigtextsize">
+            <p class="text-context"><h2>Esses são apenas alguns destaques do BigLinux</h2></p>
+            Aproveite o novo sistema do seu computador e não se esqueça de conhecer nosso fórum https://forum.biglinux.com.br e nosso grupo no Telegram @biglinux
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+
+
+
+
+
+      </article>
+    </main>
+    <!--main-->
+
+    <!-- Required -->
+    <script src="../static/js/webslides.js"></script>
+
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+  </body>
+</html>
+
+EOF
